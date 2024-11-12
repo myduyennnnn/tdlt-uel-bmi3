@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hồng Gấm _ Quỳnh Hương _ Mỹ Duyên</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 14pt &quot;Arial Black&quot;;
+background-color: rgb(203, 255, 174);
+color: rgb(0, 85, 0);</string>
+    </property>
+    <property name="text">
+     <string>BMI Application</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Weight: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Height: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>BMI: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Comment: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>100</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>(Kg)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>140</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>(Cm)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>kg/m2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCaculate">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>260</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 10pt &quot;Arial Black&quot;</string>
+    </property>
+    <property name="text">
+     <string>Caculate</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../baitaptuluyen/chuong7/baitapvenha/LearnPushButton/images/calculate.png</normaloff>../baitaptuluyen/chuong7/baitapvenha/LearnPushButton/images/calculate.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonClose">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>260</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 10pt &quot;Arial Black&quot;</string>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../baitaptuluyen/chuong7/baitapvenha/LearnPushButton/images/close.png</normaloff>../baitaptuluyen/chuong7/baitapvenha/LearnPushButton/images/close.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditWeight">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>109</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditHeight">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>150</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBMI">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>180</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>27.68</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelComment">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>220</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Overweight</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonClose</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>300</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
