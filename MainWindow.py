@@ -1,0 +1,1 @@
+#This is the file that will automatically generate code after designing the interface in the Qt designer
